@@ -1,4 +1,4 @@
-FROM williambutcherbot/python:latest
+FROM python:3.8.5-slim-buster
 
 WORKDIR /wbb
 RUN chmod 777 /wbb
